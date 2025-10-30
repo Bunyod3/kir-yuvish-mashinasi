@@ -1,0 +1,98 @@
+
+
+.parent-contianer{
+    width: 1100px;
+    height: 700px;
+    background-color: rgb(221, 126, 166);
+    margin: auto;
+    padding: auto;
+}
+.contianer-link{
+  padding-top: 150px;
+  flex-wrap: nowrap;
+  height: 60px;
+  background:none;
+  flex-direction: column;
+  width: 900px;
+  margin-right: -70px;
+  justify-self: right;
+}
+.linklar{
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.linklar:not(:first-child){
+    opacity: 0.5;
+}
+.linklar:not(:last-child){
+    margin-right: 30px;
+}
+.linklar:hover{
+  opacity: 0.8;
+}
+.TEXT-P{
+  width: 700px;
+  height: 60px;
+  color:aliceblue;
+  font-size: larger;
+  margin-left: 275px;
+}
+.contianer-black-window{
+  box-sizing: border-box;
+  width: 600px;
+  height: 200px;
+  display: flex;
+  background-color:aliceblue;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.displayflex{
+  width: 700px;
+  height: 200px;
+  display: flex;
+  justify-self: center;
+}
+.opa{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  opacity: 0.8;
+}
+.opac{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  opacity: 0.9;
+}
+.opacty{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.next{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(240, 114, 135);
+  color:aliceblue;
+}
+.next:hover{
+  opacity: 0.7;
+}
+.next-b{
+  border-radius: 10px;
+  position:absolute;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color:aliceblue;
+  margin-left: -580px;
+  margin-top: 60px;
+  z-index: 100;
+  cursor:pointer;
+}
+.next-b:hover{
+  background-color:rgb(27, 26, 26)
+}
